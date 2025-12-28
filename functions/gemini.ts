@@ -29,7 +29,7 @@ export const onRequestPost: PagesFunction<{ GEMINI_API_KEY: string }> = async (c
     ];
 
     // 3. Gọi Gemini API (Sử dụng gemini-1.5-flash-latest để ổn định nhất)
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
