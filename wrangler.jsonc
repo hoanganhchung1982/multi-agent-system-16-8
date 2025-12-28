@@ -1,5 +1,5 @@
 {
-   "observability": {
-    "enabled": true
-  }
+  "name": "multi-agent-system-16-8",
+  "compatibility_date": "2025-12-28",
+  "pages_build_output_dir": "./dist" 
 }
