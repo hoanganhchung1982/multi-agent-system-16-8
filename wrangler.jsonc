@@ -1,11 +1,5 @@
 {
-  "name": "multi-agent-system-16-8",
-  "compatibility_date": "2025-12-28",
-  "assets": {
-    "directory": "./dist", // Đảm bảo đường dẫn này khớp với thư mục build của bạn
-    "binding": "ASSETS"
-  },
-  "observability": {
+   "observability": {
     "enabled": true
   }
 }
